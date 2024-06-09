@@ -1,0 +1,36 @@
+.btn_style {
+	-fx-padding: 10 20 10 20;
+	-fx-border-radius: 5;
+	-fx-background-radius: 5;
+	-fx-border-width: 2px;
+	-fx-border-color: #FDFD96;
+	-fx-background-color: linear-gradient(#2980b9, #2c3e50);
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+	-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75), 4, 0, 0, 1);
+	-fx-cursor: hand;
+}
+
+.btn_style:hover {
+	-fx-background-color: linear-gradient(#3498db, #2980b9);
+}
+
+.btn_style:pressed {
+	-fx-background-color: linear-gradient(#2c3e50, #2980b9);
+}
+
+
+.menubr_style {
+    -fx-background-color: linear-gradient(to bottom, #84B6F4, #5879A2);
+    -fx-padding: 0;
+    -fx-border-width: 0 0 2px 0;
+    -fx-border-color: white;
+    -fx-border-style: solid;
+    -fx-background-insets: 0;
+}
+
+
+.fondo_gn{
+	-fx-background-color:#D6E6FB ;
+}
